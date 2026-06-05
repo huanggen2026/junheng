@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浙江俊衡电气科技有限公司 - 高低压成套设备专业制造商</title>
+    <meta name="keywords" content="高低压配电柜,箱式变电站,户外配电箱,环网柜,工地配电箱,浙江配电柜厂家">
+    <meta name="description" content="浙江俊衡电气专注输配电设备研发生产，主营高低压成套开关柜、配电箱、箱式变电站，产品通过CCC、ISO认证，服务全国各行业客户">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#004099',
+                        dark: '#333333',
+                        light: '#f5f7fa'
+                    },
+                    fontFamily: {sans: ['Inter', 'system-ui', 'sans-serif']}
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {content-visibility: auto;}
+            .banner-gradient {background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7));}
+            .card-hover {@apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;}
+        }
+    </style>
+</head>
+<body class="bg-white text-dark antialiased">
+<!--导航-->
+<header class="fixed w-full top-0 z-50 bg-white shadow-md">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+            <a href="#" class="flex items-center gap-2"><span class="text-primary text-2xl font-bold">俊衡电气</span></a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="font-medium hover:text-primary">首页</a>
+                <a href="#about" class="font-medium hover:text-primary">关于俊衡</a>
+                <a href="#product" class="font-medium hover:text-primary">产品中心</a>
+                <a href="#solution" class="font-medium hover:text-primary">解决方案</a>
+                <a href="#strength" class="font-medium hover:text-primary">智造实力</a>
+                <a href="#contact" class="font-medium hover:text-primary">联系我们</a>
+            </nav>
+            <button class="md:hidden text-xl" id="menuBtn"><i class="fa fa-bars"></i></button>
+        </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden bg-white border-t">
+        <div class="container mx-auto px-4 py-2 space-y-2">
+            <a href="#home" class="block py-2 hover:text-primary">首页</a>
+            <a href="#about" class="block py-2 hover:text-primary">关于俊衡</a>
+            <a href="#product" class="block py-2 hover:text-primary">产品中心</a>
+            <a href="#solution" class="block py-2 hover:text-primary">解决方案</a>
+            <a href="#strength" class="block py-2 hover:text-primary">智造实力</a>
+            <a href="#contact" class="block py-2 hover:text-primary">联系我们</a>
+        </div>
+    </div>
+</header>
+
+<!--轮播-->
+<section id="home" class="pt-16 h-[500px] md:h-[600px] flex items-center relative bg-[url('b1.jpg')] bg-cover bg-center">
+    <div class="absolute inset-0 banner-gradient"></div>
+    <div class="container mx-auto px-4 relative z-10 text-white">
+        <h1 class="text-3xl md:text-5xl font-bold mb-4">携手俊衡、驱动未来</h1>
+        <p class="text-xl md:text-2xl mb-6">精工配电，安全护航 | 专业输配电设备智造企业</p>
+        <div class="flex gap-4">
+            <a href="#product" class="bg-white text-primary px-6 py-3 rounded font-medium hover:bg-gray-100">查看产品</a>
+            <a href="#contact" class="bg-transparent border border-white px-6 py-3 rounded font-medium hover:bg-white/10">立即咨询</a>
+        </div>
+    </div>
+</section>
+
+<!--企业简介-->
+<section class="py-16 bg-light">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-primary mb-8">企业简介</h2>
+        <p class="max-w-4xl mx-auto text-lg leading-relaxed mb-8">
+浙江俊衡电气坐落于浙江乐清柳市镇，专注配电箱、高低压开关柜、箱式变电站研发生产，全流程ISO标准化智造，产品通过CCC、ISO三大体系认证。
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+            <div class="p-4 bg-white rounded card-hover"><i class="fa fa-check-circle text-primary text-2xl mb-2"></i><p>市政建设</p></div>
+            <div class="p-4 bg-white rounded card-hover"><i class="fa fa-subway text-primary text-2xl mb-2"></i><p>轨道交通</p></div>
+            <div class="p-4 bg-white rounded card-hover"><i class="fa fa-industry text-primary text-2xl mb-2"></i><p>石化煤矿</p></div>
+            <div class="p-4 bg-white rounded card-hover"><i class="fa fa-shield text-primary text-2xl mb-2"></i><p>军工项目</p></div>
+            <div class="p-4 bg-white rounded card-hover"><i class="fa fa-building text-primary text-2xl mb-2"></i><p>地产建筑</p></div>
+            <div class="p-4 bg-white rounded card-hover"><i class="fa fa-bolt text-primary text-2xl mb-2"></i><p>电厂工矿</p></div>
+        </div>
+    </div>
+</section>
+
+<!--关于我们-->
+<section id="about" class="py-16">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-primary mb-8 text-center">关于俊衡</h2>
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div><img src="factory.jpg" alt="厂区" class="w-full rounded-lg shadow"></div>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">企业概况</h3>
+                    <p class="leading-relaxed">俊衡电气位于乐清柳市，专业研发生产高低压成套、配电箱、箱变、开闭所、电缆分支箱，产品覆盖全电压等级配电系统。</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">企业实力</h3>
+                    <p class="leading-relaxed">自有研发团队，全套检测设备，ISO+CCC认证齐全，支持标准产品与非标定制。</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">企业愿景</h3>
+                    <p class="leading-relaxed">打造国内优质输配电设备品牌，制造安全可靠配电产品。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--产品中心-->
+<section id="product" class="py-16 bg-light">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-primary mb-8 text-center">产品中心</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg overflow-hidden card-hover">
+                <div class="h-40 overflow-hidden"><img src="p1.jpg" class="w-full h-full object-cover"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">低压配电箱系列</h3>
+                    <p class="text-gray-600 mb-4">XL-21、JXF、JP、PZ30、工地箱等</p>
+                    <a href="#" class="text-primary font-medium">查看详情 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden card-hover">
+                <div class="h-40 overflow-hidden"><img src="p2.jpg" class="w-full h-full object-cover"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">低压成套开关柜</h3>
+                    <p class="text-gray-600 mb-4">MNS/GCS/GCK/GGD/GGJ补偿柜</p>
+                    <a href="#" class="text-primary font-medium">查看详情 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden card-hover">
+                <div class="h-40 overflow-hidden"><img src="p3.jpg" class="w-full h-full object-cover"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">高压开关设备</h3>
+                    <p class="text-gray-600 mb-4">KYN、充气柜、固体柜、HXGN环网柜</p>
+                    <a href="#" class="text-primary font-medium">查看详情 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden card-hover">
+                <div class="h-40 overflow-hidden"><img src="p4.jpg" class="w-full h-full object-cover"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">箱式变电站</h3>
+                    <p class="text-gray-600 mb-4">欧式、美式、景观地埋箱变</p>
+                    <a href="#" class="text-primary font-medium">查看详情 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden card-hover">
+                <div class="h-40 overflow-hidden"><img src="p5.jpg" class="w-full h-full object-cover"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">户外配电设备</h3>
+                    <p class="text-gray-600 mb-4">开闭所、高低压电缆分支箱</p>
+                    <a href="#" class="text-primary font-medium">查看详情 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden card-hover">
+                <div class="h-40 overflow-hidden"><img src="p6.jpg" class="w-full h-full object-cover"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">非标定制</h3>
+                    <p class="text-gray-600 mb-4">按图纸定制各规格配电柜体</p>
+                    <a href="#" class="text-primary font-medium">立即定制 <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--解决方案-->
+<section id="solution" class="py-16">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-primary mb-8 text-center">行业解决方案</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div class="p-6 border rounded card-hover">
+                <i class="fa fa-hard-hat text-primary text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">工地配电</h3>
+                <p class="text-gray-600">工地箱、动力箱成套供货</p>
+            </div>
+            <div class="p-6 border rounded card-hover">
+                <i class="fa fa-road text-primary text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">市政改造</h3>
+                <p class="text-gray-600">JP箱、分支箱、户外开闭所</p>
+            </div>
+            <div class="p-6 border rounded card-hover">
+                <i class="fa fa-subway text-primary text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">轨道交通</h3>
+                <p class="text-gray-600">高低压成套+环网设备</p>
+            </div>
+            <div class="p-6 border rounded card-hover">
+                <i class="fa fa-industry text-primary text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">工矿石化</h3>
+                <p class="text-gray-600">高压+无功补偿成套方案</p>
+            </div>
+            <div class="p-6 border rounded card-hover">
+                <i class="fa fa-building text-primary text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">地产小区</h3>
+                <p class="text-gray-600">电表箱、照明箱、箱变配套</p>
+            </div>
+            <div class="p-6 border rounded card-hover">
+                <i class="fa fa-leaf text-primary text-3xl mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">景观配套</h3>
+                <p class="text-gray-600">广告景观地埋箱变</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--智造实力【已修改为equip.jpg】-->
+<section id="strength" class="py-16 bg-primary text-white">
+    <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div><img src="equip.jpg" alt="生产设备" class="w-full rounded-lg"></div>
+            <div class="text-center md:text-left">
+                <h2 class="text-3xl font-bold mb-12">智造实力</h2>
+                <div class="grid grid-cols-2 gap-6">
+                    <div><i class="fa fa-certificate text-4xl mb-4"></i><h3 class="text-xl font-bold mb-2">标准化生产</h3><p>全流程ISO管控</p></div>
+                    <div><i class="fa fa-flask text-4xl mb-4"></i><h3 class="text-xl font-bold mb-2">自主研发</h3><p>小型智能化升级</p></div>
+                    <div><i class="fa fa-cog text-4xl mb-4"></i><h3 class="text-xl font-bold mb-2">数控设备</h3><p>自动化流水线</p></div>
+                    <div><i class="fa fa-shield text-4xl mb-4"></i><h3 class="text-xl font-bold mb-2">严苛质检</h3><p>国标IEC双检</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--联系我们-->
+<section id="contact" class="py-16">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-primary mb-8 text-center">联系我们</h2>
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-6">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary"><i class="fa fa-map-marker text-xl"></i></div>
+                    <div><h3 class="font-bold">公司地址</h3><p>浙江省乐清市柳市镇捕捞新村捕捞五路23号</p></div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary"><i class="fa fa-phone text-xl"></i></div>
+                    <div><h3 class="font-bold">联系电话</h3><p>0577-62700537</p><p>13336988718（周经理）</p></div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary"><i class="fa fa-envelope text-xl"></i></div>
+                    <div><h3 class="font-bold">企业邮箱</h3><p>348295759@qq.com</p></div>
+                </div>
+            </div>
+            <div class="bg-light p-6 rounded-lg">
+                <h3 class="text-xl font-bold mb-4 text-center">在线咨询</h3>
+                <form class="space-y-4">
+                    <input type="text" placeholder="您的姓名" class="w-full p-3 border rounded focus:outline-none focus:border-primary">
+                    <input type="tel" placeholder="您的电话" class="w-full p-3 border rounded focus:outline-none focus:border-primary">
+                    <textarea placeholder="咨询内容" rows="4" class="w-full p-3 border rounded focus:outline-none focus:border-primary"></textarea>
+                    <button type="submit" class="w-full bg-primary text-white py-3 rounded hover:bg-primary/90">提交咨询</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--页脚-->
+<footer class="bg-dark text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+        <p class="mb-4">©2025 浙江俊衡电气科技有限公司 版权所有</p>
+        <p class="text-gray-400">高低压配电柜｜箱式变电站｜配电箱定制生产厂家</p>
+    </div>
+</footer>
+
+<script>
+const menuBtn = document.getElementById('menuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+menuBtn.addEventListener('click',()=>mobileMenu.classList.toggle('hidden'));
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.onclick=e=>{
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth',block:'start'});
+        mobileMenu.classList.add('hidden');
+    }
+})
+</script>
+</body>
+</html>
